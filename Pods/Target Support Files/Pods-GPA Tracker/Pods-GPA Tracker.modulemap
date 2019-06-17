@@ -1,0 +1,6 @@
+framework module Pods_GPA_Tracker {
+  umbrella header "Pods-GPA Tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.8.1)
+  - CircleProgressBar (0.32)
+  - CircleProgressView (1.2.0)
+  - GoogleMaps/Base (3.0.3)
+  - GooglePlaces (3.0.3):
+    - GoogleMaps/Base (= 3.0.3)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - UICircularProgressRing (6.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - CircleProgressBar
+  - CircleProgressView (from `https://github.com/CardinalNow/iOS-CircleProgressView.git`)
+  - GooglePlaces
+  - SVProgressHUD
+  - SwiftyJSON
+  - UICircularProgressRing
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CircleProgressBar
+    - GoogleMaps
+    - GooglePlaces
+    - SVProgressHUD
+    - SwiftyJSON
+    - UICircularProgressRing
+
+EXTERNAL SOURCES:
+  CircleProgressView:
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+
+CHECKOUT OPTIONS:
+  CircleProgressView:
+    :commit: b43b1f8e10260eb85c024313ccef5653ed7cf896
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CircleProgressBar: 3920079be5224b62b3d9ed6eeb23ac01c835b681
+  CircleProgressView: 6b5b091d59dc5e5d2fda84e637a40498cdc39937
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  UICircularProgressRing: 2ef1293241b83d8020ede21a8fe3b3d859525730
+
+PODFILE CHECKSUM: 9c10b0d126e5bdb9b71815afb28942252a92b391
+
+COCOAPODS: 1.6.1
